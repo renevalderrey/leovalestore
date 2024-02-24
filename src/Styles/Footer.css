@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  font-family: "Montserrat", sans-serif;
+  margin: 5px;
+}
+
+.title {
+  position: absolute;
+  top: 40px;
+  left: 90px;
+}
+
+.logo-footer {
+  position: relative;
+  margin: 20px;
+  width: 150px;
+  border-radius: 100px;
+}
+
+.contact-footer {
+  position: absolute;
+  top: 40px;
+  right: 90px;
+}
+
+.instagram {
+  display: flex;
+  margin-bottom: 5px;
+}
+
+.instagram p {
+  position: relative;
+  top: 10px;
+  left: 10px;
+}
+
+.instagram img {
+  width: 50px;
+}
+
+.whatsapp {
+  display: flex;
+}
+
+.whatsapp img {
+  width: 50px;
+}
+
+.whatsapp p {
+  position: relative;
+  top: 10px;
+  left: 10px;
+}
