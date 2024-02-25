@@ -7,14 +7,14 @@ import "../Styles/Footer.css";
 const Footer = () => {
   return (
     <footer>
-      <a href="/ubicacionycontacto">
+      <a href="#/ubicacionycontacto">
         <div className="title">
           <h1>LEOVALESTORE</h1>
           <h4>Peluquería Le Coiffure</h4>
           <h4>General Martín de Güemes 166 - Local B</h4>
         </div>
       </a>
-      <a href="/">
+      <a href="#/">
         <img className="logo-footer" src={logo} />
       </a>
       <div className="contact-footer">
