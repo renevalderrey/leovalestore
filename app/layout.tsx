@@ -21,7 +21,7 @@ export const metadata: Metadata = {
   description: "La elegancia es una actitud que empieza en tus manos.",
   generator: 'v0.app',
   icons: {
-    icon: "/Logo.jpg",
+    icon: "/leovalestore/Logo.jpg",
   },
 }
 

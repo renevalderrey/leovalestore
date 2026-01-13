@@ -7,37 +7,37 @@ import { X } from "lucide-react"
 const portfolioItems = [
   {
     id: 1,
-    src: "/elegant-woman-with-beautiful-blonde-balayage-hair-.jpg",
+    src: "/leovalestore/elegant-woman-with-beautiful-blonde-balayage-hair-.jpg",
     alt: "Balayage rubio elegante",
     category: "Coloración",
   },
   {
     id: 2,
-    src: "/sophisticated-woman-with-sleek-dark-bob-haircut-pr.jpg",
+    src: "/leovalestore/sophisticated-woman-with-sleek-dark-bob-haircut-pr.jpg",
     alt: "Bob oscuro sofisticado",
     category: "Corte",
   },
   {
     id: 3,
-    src: "/bride-with-elegant-updo-hairstyle-wedding-hair.jpg",
+    src: "/leovalestore/bride-with-elegant-updo-hairstyle-wedding-hair.jpg",
     alt: "Recogido nupcial",
     category: "Evento",
   },
   {
     id: 4,
-    src: "/woman-with-rich-copper-red-hair-color-professional.jpg",
+    src: "/leovalestore/woman-with-rich-copper-red-hair-color-professional.jpg",
     alt: "Coloración cobriza",
     category: "Coloración",
   },
   {
     id: 5,
-    src: "/glamorous-woman-with-voluminous-curly-hair-styling.jpg",
+    src: "/leovalestore/glamorous-woman-with-voluminous-curly-hair-styling.jpg",
     alt: "Ondas glamurosas",
     category: "Peinado",
   },
   {
     id: 6,
-    src: "/woman-with-modern-pixie-cut-short-hair-professiona.jpg",
+    src: "/leovalestore/woman-with-modern-pixie-cut-short-hair-professiona.jpg",
     alt: "Pixie moderno",
     category: "Corte",
   },
@@ -69,7 +69,7 @@ export function Portfolio() {
               className="group relative aspect-[3/4] overflow-hidden cursor-pointer"
             >
               <Image
-                src={item.src || "/placeholder.svg"}
+                src={item.src || "/leovalestore/placeholder.svg"}
                 alt={item.alt}
                 fill
                 className="object-cover transition-transform duration-500 group-hover:scale-105"
@@ -99,7 +99,7 @@ export function Portfolio() {
           </button>
           <div className="relative w-full max-w-3xl aspect-[3/4]">
             <Image
-              src={selectedImage.src || "/placeholder.svg"}
+              src={selectedImage.src || "/leovalestore/placeholder.svg"}
               alt={selectedImage.alt}
               fill
               className="object-contain"

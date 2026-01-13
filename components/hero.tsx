@@ -8,7 +8,7 @@ export function Hero() {
       {/* Background Image */}
       <div className="absolute inset-0 z-0">
         <Image
-          src="/elegant-luxury-hair-salon-interior-with-soft-light.jpg"
+          src="/leovalestore/elegant-luxury-hair-salon-interior-with-soft-light.jpg"
           alt="Interior de salón de belleza de lujo"
           fill
           className="object-cover"
