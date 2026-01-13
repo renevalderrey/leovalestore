@@ -31,14 +31,14 @@ export function Hero() {
         <div className="flex flex-col sm:flex-row items-center justify-center gap-6">
           <Link
             href="#reservar"
-            className="group flex items-center gap-3 px-8 py-4 bg-primary text-primary-foreground text-sm tracking-widest uppercase hover:bg-primary/90 transition-all"
+            className="group flex items-center gap-3 px-8 py-4 bg-primary text-primary-foreground text-sm tracking-widest uppercase hover:bg-accent hover:text-accent-foreground transition-all duration-300"
           >
             Reservar Cita
             <ArrowRight size={16} className="group-hover:translate-x-1 transition-transform" />
           </Link>
           <Link
             href="#portafolio"
-            className="flex items-center gap-3 px-8 py-4 border border-foreground text-foreground text-sm tracking-widest uppercase hover:bg-foreground hover:text-background transition-all"
+            className="flex items-center gap-3 px-8 py-4 border border-foreground text-foreground text-sm tracking-widest uppercase hover:border-accent hover:text-accent transition-all duration-300"
           >
             Ver Portafolio
           </Link>

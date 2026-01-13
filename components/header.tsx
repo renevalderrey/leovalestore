@@ -18,19 +18,19 @@ export function Header() {
         <div className="hidden md:flex items-center gap-10">
           <Link
             href="#servicios"
-            className="text-sm tracking-widest uppercase text-muted-foreground hover:text-foreground transition-colors"
+            className="text-sm tracking-widest uppercase text-muted-foreground hover:text-accent transition-colors"
           >
             Servicios
           </Link>
           <Link
             href="#portafolio"
-            className="text-sm tracking-widest uppercase text-muted-foreground hover:text-foreground transition-colors"
+            className="text-sm tracking-widest uppercase text-muted-foreground hover:text-accent transition-colors"
           >
             Portafolio
           </Link>
           <Link
             href="#contacto"
-            className="text-sm tracking-widest uppercase text-muted-foreground hover:text-foreground transition-colors"
+            className="text-sm tracking-widest uppercase text-muted-foreground hover:text-accent transition-colors"
           >
             Contacto
           </Link>
@@ -54,21 +54,21 @@ export function Header() {
           <div className="container mx-auto px-6 py-6 flex flex-col gap-6">
             <Link
               href="#servicios"
-              className="text-sm tracking-widest uppercase text-muted-foreground hover:text-foreground transition-colors"
+              className="text-sm tracking-widest uppercase text-muted-foreground hover:text-accent transition-colors"
               onClick={() => setIsOpen(false)}
             >
               Servicios
             </Link>
             <Link
               href="#portafolio"
-              className="text-sm tracking-widest uppercase text-muted-foreground hover:text-foreground transition-colors"
+              className="text-sm tracking-widest uppercase text-muted-foreground hover:text-accent transition-colors"
               onClick={() => setIsOpen(false)}
             >
               Portafolio
             </Link>
             <Link
               href="#contacto"
-              className="text-sm tracking-widest uppercase text-muted-foreground hover:text-foreground transition-colors"
+              className="text-sm tracking-widest uppercase text-muted-foreground hover:text-accent transition-colors"
               onClick={() => setIsOpen(false)}
             >
               Contacto

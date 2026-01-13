@@ -77,7 +77,7 @@ export function Portfolio() {
               <div className="absolute inset-0 bg-foreground/0 group-hover:bg-foreground/40 transition-colors duration-300" />
               <div className="absolute inset-0 flex flex-col items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                 <span className="text-xs tracking-widest uppercase text-card mb-2">{item.category}</span>
-                <span className="text-lg text-card font-medium">Ver más</span>
+                <span className="text-lg text-card font-medium group-hover:text-accent transition-colors duration-300">Ver más</span>
               </div>
             </button>
           ))}

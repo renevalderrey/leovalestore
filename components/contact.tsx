@@ -187,7 +187,7 @@ export function Contact() {
               </div>
               <button
                 type="submit"
-                className="w-full py-4 bg-primary text-primary-foreground text-sm tracking-widest uppercase hover:bg-primary/90 transition-colors"
+                className="w-full py-4 bg-primary text-primary-foreground text-sm tracking-widest uppercase hover:bg-accent hover:text-accent-foreground transition-colors duration-300"
               >
                 Solicitar Cita por WhatsApp
               </button>

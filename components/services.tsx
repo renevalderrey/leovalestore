@@ -82,7 +82,7 @@ export function Services() {
                 {category.items.map((item, itemIndex) => (
                   <div key={itemIndex} className="flex items-center justify-between border-b border-border/50 pb-3 last:border-0 last:pb-0 hover:pl-2 transition-all">
                     <span className="text-foreground/90 font-light">{item.name}</span>
-                    <span className="text-lg font-medium text-foreground">{item.price}</span>
+                    <span className="text-lg font-medium text-accent">{item.price}</span>
                   </div>
                 ))}
               </div>
